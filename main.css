@@ -120,7 +120,18 @@ nav
     height: inherit;
     width: auto;
 }
- 
+
+.strbf {
+    border-radius: 100px;
+    object-fit:scale-down;
+    display:flex;
+    justify-content:center;
+    margin:inherit;
+    width: auto;
+    height: auto;
+
+}
+
 .kontaktowe {
     text-align: left,
 }
