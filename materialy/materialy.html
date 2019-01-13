@@ -21,11 +21,32 @@
                </div>
             </header>
             <nav>
-                <ul class="menu">
-                <li><a href="../index.html">Strona główna</a><li>
-                <li><a href="../Oprojekcie/oprojekcie.html">O projekcie</a><li>
-                <li><a href="../materialy/materialy.html">Materiały</a><li>
-                <li><a href="../Kontakt/kontakt.html">Kontakt</a><li>
-                </ul>
+        <ul class="menu">
+        <li><a href="../index.html">Strona główna</a><li>
+        <li><a href="../Oprojekcie/oprojekcie.html">O projekcie</a></li>
+        <li><a href="../materialy/materialy.html">Materiały</a><li>
+        <li><a href="../Kontakt/kontakt.html">Kontakt</a><li>
+        </ul>
             </nav>
-            <h1 style = "font-size: 35px; margin-left: 2rem"> Materiały </h1>
+            
+<div class="container">
+    <div class="tekst2"> 
+                     
+<article>
+                     
+<h1 style = "font-size: 35px;"> Materiały </h1>
+<br>
+<p style = "font-size: 26px;"><b>Materiały wykorzystane do przeprowadzenia analizy wielokryterialnej </b></p>
+<p style = "font-size: 26px; margin-left: 2rem">Do przeprowadzenia analizy wielokryterialnej, wykorzystano ogólnodostępne dane, pobrane z serwisu OpenStreetMap, o dokładności 10 m (<i><u>https://www.geofabrik.de/data/download.html</u></i>). Format zapisu tych danych to Esri Shapefile (SHP). Ponadto, do wykonania analizy wielokryterialnej, należało zaopatrzyć się w ogólnodostępne dane wektorowe w formacie Esri Shapefile (SHP), dotyczące granic administracyjnych, o dokładności 0,01 m (<i><u>http://www.gugik.gov.pl/pzgik/dane-bez-oplat/dane-z-panstwowego-rejestru-granic-i-powierzchni-jednostek-podzialow-terytorialnych-kraju-prg</u></i>), jak i również w zbiór danych dotyczących numerycznego modelu terenu w formacie pliku tekstowego 
+o interwale siatki co najmniej 100 m (<i><u>http://www.codgik.gov.pl/index.php/darmowe-dane/nmt-100.html</u></i>). Dokładność tego pliku wynosi 0,01 m, natomiast jego struktura stanowi zbiór współrzędnych (X,Y,Z ).
+ </p> <br>
+<p style = "font-size: 26px;"><b>Format SHP </b></p>
+<p style = "font-size: 26px; margin-left: 2rem"> Format <i> shp.</i> (Esri Shapefile) jest to powszechnie używany wektorowy format wymiany danych opracowany przez firmę ESRI, w celu przedstawienia obiektów punktowych, liniowych i powierzchniowych, wraz z przyporządkowanymi im danymi atrybutowymi. Każdy shapefile, może zawierać tylko jeden geometryczny typ danych, nie ma możliwości przetwarzania topologicznej struktury danych oraz nie można w nim zapisać grafiki (ograniczenie to można pokonać w niektórych programach np. w QGISpoprzez zapisanie stylu w formacie qml i dodanie jako dodatkowego pliku). Żeby był kompatybilny z różnego rodzaju aplikacjami GIS powinien spełniać pewne standardy takie jak: ograniczenie nazwy do 8 znaków oraz 3 znakowe rozszerzenie (chociaż większość obecnie wydawanych aplikacji umożliwia prace na plikach shp z dłuższymi nazwami). Ze względu na to, że niektóre systemy wrażliwe są na wielkość znaków w nazwie pliku lepiej używać małych liter w nazwie plików shapefile. Długość kolumny w tabeli atrybutów może maksymalnie wynosić 255 znaków. W zakres pojęcia shapefile wchodzi kilka różnych typów plików, z których niezbędne z punktu widzenia użytkownika GIS są:
+    </p> </div>
+<ol style = "font-size: 25px; margin-left: 4rem; text-align: left">             
+<li><i>shp.</i> – plik zawierający geometrię obiektu,</li> 
+<li><i>shx.</i> – plik indeksowy pozwalający na szybkie przeszukiwanie danych,</li>
+<li><i>dbf.</i> – plik zawierający dane atrybutowe (tabelaryczne); w tabeli jeden rekord odpowiada jednemu obiektowi,</li> 
+<li><i>prj.</i> – plik zawierający informację na temat układu współrzędnych i odwzorowania – dane wyświetlą się także w przypadku braku tego pliku jednak bez właściwego odniesienia w przestrzeni, co czyni je mało wartościowymi.</li>
+</ol>
+</div>

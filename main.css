@@ -113,6 +113,14 @@ nav
     margin-right: 2rem;
 }
 
+.tekst2 {
+    text-align:left;
+    text-indent: 3rem; 
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
 .obrazek {
     display:flex;
     justify-content:center;
